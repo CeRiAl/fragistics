@@ -13,5 +13,6 @@ PKG_NAME=fragistics
 }
 
 (cd $srcdir;
+    aclocal &&
     autoreconf --install --symlink
 )
