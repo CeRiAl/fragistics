@@ -1,5 +1,6 @@
-AC_INIT(src/gameslogparser.cpp)
-AM_INIT_AUTOMAKE(fragistics,1.6.0)
+AC_INIT([fragistics], [1.6.0])
+AC_CONFIG_SRCDIR([src/gameslogparser.cpp])
+AM_INIT_AUTOMAKE
 
 dnl programs
 AC_PATH_PROG(PERL,perl)
