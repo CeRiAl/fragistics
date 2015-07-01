@@ -1,6 +1,7 @@
 			     ____________
 			     INSTALLATION
 
+    ./autogen.sh
     ./configure
     make                    (ignore compiler warnings)
     make install            (as user "root")
